@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.cleaner { clear:both; padding:10px; }
+ul { list-style:none; margin:0; padding:0; }
+li { float:left; width:100px; margin:0; padding:0; text-align:center; }
+li a { display:block; padding:5px 10px; height:100%; color:#fff; text-decoration:none; border-right:1px solid #fff; }
+li a { background:url(../image/snook-animation-bg2.png) repeat 0 0; }
+a:hover, a:focus, a:active { background-position:-150px 0; }
+#snook_nav_top a { background:url(../image/snook-animation-bg.png) repeat; background-position:-20px 35px; }
+#snook_nav_right a { background:url(../image/snook-animation-bg2.png) repeat; background-position:0px 0px; }
+.snook_left { -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px;  -moz-border-top-left-radius: 5px; -moz-border-bottom-left-radius: 5px; }
+.snook_right { -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px;  -moz-border-top-right-radius: 5px; -moz-border-bottom-right-radius: 5px; }

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+form.formular {text-align: left;width: 634px;font-family: 微软雅黑, 幼圆; font-size: 14px;padding: 20px;border: none;background: #EAEAEA; float: left;}
+form.black {font-family: 微软雅黑, 幼圆;font-size: 13px;padding: 20px;border: 1px solid #A5A8B8;background:#666666;color:#CCCCCC;}
+form.black legend{color:#CCCCCC;}
+.formular fieldset {margin: 10px 10px 30px 10px;padding : 15px;border: 1px  #B5B8C8; border-radius: 5px; border-style:dashed; }
+.personal_info { float: left; clear: left; }
+.account_info { float: right; clear: right; }
+.formular legend {font-size: 18px;color: #15428B;font-weight: 900;}
+.formular fieldset label {float: left;text-align: inherit;width: auto; clear: both;}
+.formular label span {color: #000;}
+.black label span {color: #ccc;}
+.formular input, .formular textarea {display : block;margin-bottom: 5px;}
+.formular .text-input {width: 250px;color: 555;padding: 4px;border: 2px solid #B5B8C8;font-size: 14px;margin-top: 4px;background: #FFF repeat-x;}
+.text-input {width: 250px;color: #555;padding: 4px 4px 3px;border: 2px solid #B5B8C8;font-size: 14px;margin-top: 4px;margin-bottom: 4px;background: #FFF repeat-x;}
+.formular .infos {background: #FFF;color: #333;font-size: 13px;padding: 10px;margin-bottom: 10px;border:1px solid #B5B8C8;}
+.formular span.checkbox, .formular .checkbox {display: inline;}
+.formular .button {text-align:center;float: right;}
+.submit_button {color: #555;float:right;text-decoration: none;}
+.formular a.submit_button {background:repeat-x;border: 1px solid #AAA;padding: 4px;}
+input.button {background:repeat-x;border: 2px solid #AAA;padding: 4px 4px 1px;font-size:14px;margin-top:4px;}
+.formular input {background:repeat-x;border: 2px solid #AAA;padding: 4px;}
+.formular .fc-error {width: 350px;color: 555;padding: 4px;border: 1px solid #B5B8C8;font-size: 13px;margin-bottom: 15px;background: #FFEAEA;}
+.formular hr { clear: both; border: none; height: 1px; line-height: 1px; background: #CCC; margin-bottom: 20px;}
+.dept_info_detail pre {font-family: 微软雅黑, 幼圆;font-size: 13px;}
+input[type="radio"], select {display: inline;}
+input[type="text"] { width:300px; border:1px solid #999; padding:5px; -webkit-border-radius: 3px; -moz-border-radius: 3px;}
+input[type="text"]:focus { border-color:#777; }
+input[type="password"] { width:300px; border:1px solid #999; padding:5px; -webkit-border-radius: 3px; -moz-border-radius: 3px;}
+input[type="password"]:focus { border-color:#777; }

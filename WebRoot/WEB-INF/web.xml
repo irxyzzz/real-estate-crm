@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  
+  <filter>
+  	<filter-name>UserRightFilter</filter-name>
+  	<filter-class>com.crm.servlet.UserRightFilter</filter-class>
+  </filter>
+  <filter-mapping>
+	  <filter-name>UserRightFilter</filter-name>
+	  <url-pattern>/jsp/*</url-pattern>
+  </filter-mapping>
+  
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.crm.servlet.LoginServlet</servlet-class>
+    <init-param>
+    	<param-name>adminName</param-name>
+    	<param-value>admin</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>adminPassword</param-name>
+    	<param-value>admin</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<servlet-class>com.crm.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PersonInfoShowServlet</servlet-name>
+    <servlet-class>com.crm.servlet.PersonInfoShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PersonInfoModifyServlet</servlet-name>
+    <servlet-class>com.crm.servlet.PersonInfoModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MenuDispatcher</servlet-name>
+    <servlet-class>com.crm.servlet.MenuDispatcher</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.crm.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HouseManageServlet</servlet-name>
+    <servlet-class>com.crm.servlet.HouseManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerManageServlet</servlet-name>
+    <servlet-class>com.crm.servlet.CustomerManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AssignmentManageServlet</servlet-name>
+    <servlet-class>com.crm.servlet.AssignmentManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeManageServlet</servlet-name>
+    <servlet-class>com.crm.servlet.EmployeeManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CompetitorManageServlet</servlet-name>
+    <servlet-class>com.crm.servlet.CompetitorManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SystemManageServlet</servlet-name>
+    <servlet-class>com.crm.servlet.SystemManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AnalysisManageServlet</servlet-name>
+    <servlet-class>com.crm.servlet.AnalysisManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PersonInfoPasswordServlet</servlet-name>
+    <servlet-class>com.crm.servlet.PersonInfoPasswordServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/jsp/login.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/jsp/logout.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonInfoShowServlet</servlet-name>
+    <url-pattern>/jsp/personInfo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonInfoModifyServlet</servlet-name>
+    <url-pattern>/jsp/personInfoModify.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenuDispatcher</servlet-name>
+    <url-pattern>/jsp/menuDispatcher.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/jsp/index.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HouseManageServlet</servlet-name>
+    <url-pattern>/jsp/houseManage.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerManageServlet</servlet-name>
+    <url-pattern>/jsp/customerManage.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AssignmentManageServlet</servlet-name>
+    <url-pattern>/jsp/assignment.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeManageServlet</servlet-name>
+    <url-pattern>/jsp/employeeManage.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompetitorManageServlet</servlet-name>
+    <url-pattern>/jsp/competitorManage.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SystemManageServlet</servlet-name>
+    <url-pattern>/jsp/systemManage.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnalysisManageServlet</servlet-name>
+    <url-pattern>/jsp/analysisManage.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonInfoPasswordServlet</servlet-name>
+    <url-pattern>/jsp/personModifyPassword.do</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/jsp/error_404.jsp</location>
+  </error-page>
+  
+  <error-page>
+  	<error-code>500</error-code>
+  	<location>/jsp/error_500.jsp</location>
+  </error-page>
+  
+  <error-page>
+  	<error-code>503</error-code>
+  	<location>/jsp/error_503.jsp</location>
+  </error-page>
+  
+  
+</web-app>

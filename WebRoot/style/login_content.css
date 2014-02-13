@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body { width:100%; height: 100%; margin:0px; padding:0px; text-align:center; font-family: 微软雅黑, 幼圆; font-size: 14px; background:none; background-image:url(image/bg_spa.jpg); background-attachment:fixed; background-position: center; line-height: 1.6; }
+/*********CSSStyle of content Panel*********/
+	#content { -webkit-transition: -webkit-box-shadow 0.3s ease-out; -moz-transition: -moz-box-shadow 0.3s ease-out; top:146px; left: 245px; position:absolute; text-align:left; -webkit-border-radius:5px; -moz-border-radius:5px; border: solid #D1D4DA 1px; width:750px; margin:auto; padding:20px; background: rgba(255,255,255,0.3); }
+	#content:hover { -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.4); -moz-box-shadow:0 0px 10px rgba(0, 0, 0, 0.4); }
+	#content:active { -webkit-box-shadow:0 0 0 rgba(0, 0, 0, 0.4); -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.4); }
+	#content hr { border: none; height: 1px; line-height: 1px; background: #CCC; margin-bottom: 20px; padding: 0; }
+	#content h1 { margin: 0; }
+	#content h3 { margin: 0;	padding: 5px 0 0 0; font-size: 21px; }
+	#content p { margin: 0; padding: 7px 0; }
+	#content p a { text-decoration:none; outline-color: #888; }
+	#content p a:hover { text-decoration:underline; outline-color: #888; }
+	#content .clear { clear: both; line-height: 1px; font-size: 1px; }
+
+	#login_tab_output { background-image:url(image/login/sample1.jpg); }
+	#login_tab_output #login { width: auto; height:auto; margin: 60px 0px 0px 70px; background:none; }
+	#login_tab_output #login li { display: list-item; opacity: 1; }
+	#login_tab_output #login .slider label { color: rgb(0,0,0); position: absolute; top: 6px; display: inline; z-index: 99; left: 5px; }
+	
+	div#feature_list { width: 750px; height: 240px; overflow: hidden; position: relative; }
+	div#feature_list ul { position: absolute; top: 0; list-style: none; padding: 0; margin: 0; }
+	ul#tabs { left: 0; z-index: 2; width: 320px;}
+	ul#tabs li { font-size: 13px; }
+	ul#tabs li img { padding: 5px; border: none; float: left; margin: 10px 10px 0 0; }
+	ul#tabs li a { color: #222; text-decoration: none; display: block; padding: 10px; height: 60px; outline: none; }
+	ul#tabs li a:hover { text-decoration: underline; }
+	ul#tabs li a.current { background:url(image/login/bg_tab_current.png); color: #FFF; }
+	ul#tabs li a.current:hover { text-decoration: none; cursor: default;}
+	ul#output { right: 0;width: 463px; height: 240px; position: relative;}
+	ul#output li { position: absolute; width: 463px; height: 240px;}
+	ul#output li .corner_link { -webkit-transition: background 0.3s ease-out; -moz-transition: background 0.3s ease-out; position: absolute; bottom: 10px; right: 10px; padding: 8px 12px; text-decoration: none; font-size: 11px; color: #FFF; background: #000; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+	ul#output li .corner_link:hover { background: #D33431; }
+
+/*********CSSStyle of login input*********/
+	div.slider { clear:both; position:relative; margin:0 0 10px; }
+	div.slider label { cursor:pointer; display:block; }
+	input[type="checkbox"] { margin-left: 167px; margin-right: 3px; cursor: pointer; }
+	label[for="admin_check"] { cursor: pointer; }
+	input[type="text"] { width:300px; border:1px solid #999; padding:5px; -webkit-border-radius: 3px; -moz-border-radius: 3px;}
+	input[type="text"]:focus { border-color:#777; }
+	input[type="password"] { width:300px; border:1px solid #999; padding:5px; -webkit-border-radius: 3px; -moz-border-radius: 3px;}
+	input[type="password"]:focus { border-color:#777; }
+	input[type="submit"] { cursor:pointer; border:1px solid #999; padding:5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; background:#eee; }
+	input[type="submit"]:hover,
+	input[type="submit"]:focus { border-color:#333; background:#ddd; }
+	input[type="submit"]:active{ margin-top:1px; }
+	button.btn_submit { font-family: 微软雅黑, 幼圆; font-size: 14px; -webkit-transition: all 0.3s ease-out; -moz-transition: all 1s linear; color: #FFF; width: 80px; height: 24px; background: none; border: none; background-image:url(image/snook-animation-ud.png); background-position: -0px -66px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
+	button.btn_submit:hover { color: #000; background-position: -0px -10px; }
+	button.btn_submit:active { color: #fff; }

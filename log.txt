@@ -1,0 +1,507 @@
+[INFO ][2010-08-04 01:50:24] Mapping class: com.crm.model.CustomerSupport -> customer_connection
+[INFO ][2010-08-04 01:50:24] Reading mappings from resource : com/crm/model/Employee.hbm.xml
+[INFO ][2010-08-04 01:50:24] Mapping class: com.crm.model.Employee -> employee
+[INFO ][2010-08-04 01:50:24] Reading mappings from resource : com/crm/model/EmployeeCustomer.hbm.xml
+[INFO ][2010-08-04 01:50:24] Mapping class: com.crm.model.EmployeeCustomer -> employee_customer_list
+[INFO ][2010-08-04 01:50:24] Reading mappings from resource : com/crm/model/House.hbm.xml
+[INFO ][2010-08-04 01:50:24] Mapping class: com.crm.model.House -> house
+[INFO ][2010-08-04 01:50:24] Reading mappings from resource : com/crm/model/RepairRecord.hbm.xml
+[INFO ][2010-08-04 01:50:24] Mapping class: com.crm.model.RepairRecord -> repair_record
+[INFO ][2010-08-04 01:50:24] Reading mappings from resource : com/crm/model/ResidenceCommunity.hbm.xml
+[INFO ][2010-08-04 01:50:24] Mapping class: com.crm.model.ResidenceCommunity -> residence_community
+[INFO ][2010-08-04 01:50:24] Reading mappings from resource : com/crm/model/Notice.hbm.xml
+[INFO ][2010-08-04 01:50:24] Mapping class: com.crm.model.Notice -> notice
+[INFO ][2010-08-04 01:50:24] Configured SessionFactory: null
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Assignment.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Company.competitorInfos -> competitor_info
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Company.residenceCommunities -> residence_community
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Customer.repairRecords -> repair_record
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Customer.customerSupports -> customer_connection
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Customer.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Customer.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Employee.repairRecords -> repair_record
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Employee.housesForSaleEmployee -> house
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Employee.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Employee.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Employee.housesForASEmployee -> house
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Employee.customerSupports -> customer_connection
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.Employee.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.ResidenceCommunity.competitorInfos -> competitor_info
+[INFO ][2010-08-04 01:50:24] Mapping collection: com.crm.model.ResidenceCommunity.houses -> house
+[INFO ][2010-08-04 01:50:24] Using Hibernate built-in connection pool (not for production use!)
+[INFO ][2010-08-04 01:50:24] Hibernate connection pool size: 20
+[INFO ][2010-08-04 01:50:24] autocommit mode: false
+[INFO ][2010-08-04 01:50:24] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/crm
+[INFO ][2010-08-04 01:50:24] connection properties: {user=root, password=****}
+[INFO ][2010-08-04 01:50:24] RDBMS: MySQL, version: 5.0.67-community-nt
+[INFO ][2010-08-04 01:50:24] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+[INFO ][2010-08-04 01:50:24] Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ][2010-08-04 01:50:24] Using default transaction strategy (direct JDBC transactions)
+[INFO ][2010-08-04 01:50:24] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ][2010-08-04 01:50:24] Automatic flush during beforeCompletion(): disabled
+[INFO ][2010-08-04 01:50:24] Automatic session close at end of transaction: disabled
+[INFO ][2010-08-04 01:50:24] JDBC batch size: 15
+[INFO ][2010-08-04 01:50:24] JDBC batch updates for versioned data: disabled
+[INFO ][2010-08-04 01:50:24] Scrollable result sets: enabled
+[INFO ][2010-08-04 01:50:24] JDBC3 getGeneratedKeys(): enabled
+[INFO ][2010-08-04 01:50:24] Connection release mode: auto
+[INFO ][2010-08-04 01:50:24] Maximum outer join fetch depth: 2
+[INFO ][2010-08-04 01:50:24] Default batch fetch size: 1
+[INFO ][2010-08-04 01:50:24] Generate SQL with comments: disabled
+[INFO ][2010-08-04 01:50:24] Order SQL updates by primary key: disabled
+[INFO ][2010-08-04 01:50:24] Order SQL inserts for batching: disabled
+[INFO ][2010-08-04 01:50:24] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ][2010-08-04 01:50:24] Using ASTQueryTranslatorFactory
+[INFO ][2010-08-04 01:50:24] Query language substitutions: {}
+[INFO ][2010-08-04 01:50:24] JPA-QL strict compliance: disabled
+[INFO ][2010-08-04 01:50:24] Second-level cache: enabled
+[INFO ][2010-08-04 01:50:24] Query cache: disabled
+[INFO ][2010-08-04 01:50:24] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ][2010-08-04 01:50:24] Optimize cache for minimal puts: disabled
+[INFO ][2010-08-04 01:50:24] Structured second-level cache entries: disabled
+[INFO ][2010-08-04 01:50:24] Statistics: disabled
+[INFO ][2010-08-04 01:50:24] Deleted entity synthetic identifier rollback: disabled
+[INFO ][2010-08-04 01:50:24] Default entity-mode: pojo
+[INFO ][2010-08-04 01:50:24] Named query checking : enabled
+[INFO ][2010-08-04 01:50:24] building session factory
+[INFO ][2010-08-04 01:50:25] Not binding factory to JNDI, no JNDI name configured
+[INFO ][2010-08-04 01:54:08] Hibernate 3.3.2.GA
+[INFO ][2010-08-04 01:54:08] hibernate.properties not found
+[INFO ][2010-08-04 01:54:08] Bytecode provider name : javassist
+[INFO ][2010-08-04 01:54:08] using JDK 1.4 java.sql.Timestamp handling
+[INFO ][2010-08-04 01:54:08] configuring from resource: /hibernate.cfg.xml
+[INFO ][2010-08-04 01:54:08] Configuration resource: /hibernate.cfg.xml
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/Assignment.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.Assignment -> task
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/AssignmentParticipant.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.AssignmentParticipant -> task_participant_list
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/Company.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.Company -> company
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/Competitor.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.Competitor -> competitor_info
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/Customer.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.Customer -> customer
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/CustomerCare.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.CustomerCare -> care_activity
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/CustomerFeedback.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.CustomerFeedback -> customer_feedback
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/CustomerSupport.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.CustomerSupport -> customer_connection
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/Employee.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.Employee -> employee
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/EmployeeCustomer.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.EmployeeCustomer -> employee_customer_list
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/House.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.House -> house
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/RepairRecord.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.RepairRecord -> repair_record
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/ResidenceCommunity.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.ResidenceCommunity -> residence_community
+[INFO ][2010-08-04 01:54:08] Reading mappings from resource : com/crm/model/Notice.hbm.xml
+[INFO ][2010-08-04 01:54:08] Mapping class: com.crm.model.Notice -> notice
+[INFO ][2010-08-04 01:54:09] Configured SessionFactory: null
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Assignment.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Company.competitorInfos -> competitor_info
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Company.residenceCommunities -> residence_community
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Customer.repairRecords -> repair_record
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Customer.customerSupports -> customer_connection
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Customer.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Customer.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Employee.repairRecords -> repair_record
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Employee.housesForSaleEmployee -> house
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Employee.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Employee.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Employee.housesForASEmployee -> house
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Employee.customerSupports -> customer_connection
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.Employee.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.ResidenceCommunity.competitorInfos -> competitor_info
+[INFO ][2010-08-04 01:54:09] Mapping collection: com.crm.model.ResidenceCommunity.houses -> house
+[INFO ][2010-08-04 01:54:09] Using Hibernate built-in connection pool (not for production use!)
+[INFO ][2010-08-04 01:54:09] Hibernate connection pool size: 20
+[INFO ][2010-08-04 01:54:09] autocommit mode: false
+[INFO ][2010-08-04 01:54:09] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/crm
+[INFO ][2010-08-04 01:54:09] connection properties: {user=root, password=****}
+[INFO ][2010-08-04 01:54:09] RDBMS: MySQL, version: 5.0.67-community-nt
+[INFO ][2010-08-04 01:54:09] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+[INFO ][2010-08-04 01:54:09] Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ][2010-08-04 01:54:09] Using default transaction strategy (direct JDBC transactions)
+[INFO ][2010-08-04 01:54:09] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ][2010-08-04 01:54:09] Automatic flush during beforeCompletion(): disabled
+[INFO ][2010-08-04 01:54:09] Automatic session close at end of transaction: disabled
+[INFO ][2010-08-04 01:54:09] JDBC batch size: 15
+[INFO ][2010-08-04 01:54:09] JDBC batch updates for versioned data: disabled
+[INFO ][2010-08-04 01:54:09] Scrollable result sets: enabled
+[INFO ][2010-08-04 01:54:09] JDBC3 getGeneratedKeys(): enabled
+[INFO ][2010-08-04 01:54:09] Connection release mode: auto
+[INFO ][2010-08-04 01:54:09] Maximum outer join fetch depth: 2
+[INFO ][2010-08-04 01:54:09] Default batch fetch size: 1
+[INFO ][2010-08-04 01:54:09] Generate SQL with comments: disabled
+[INFO ][2010-08-04 01:54:09] Order SQL updates by primary key: disabled
+[INFO ][2010-08-04 01:54:09] Order SQL inserts for batching: disabled
+[INFO ][2010-08-04 01:54:09] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ][2010-08-04 01:54:09] Using ASTQueryTranslatorFactory
+[INFO ][2010-08-04 01:54:09] Query language substitutions: {}
+[INFO ][2010-08-04 01:54:09] JPA-QL strict compliance: disabled
+[INFO ][2010-08-04 01:54:09] Second-level cache: enabled
+[INFO ][2010-08-04 01:54:09] Query cache: disabled
+[INFO ][2010-08-04 01:54:09] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ][2010-08-04 01:54:09] Optimize cache for minimal puts: disabled
+[INFO ][2010-08-04 01:54:09] Structured second-level cache entries: disabled
+[INFO ][2010-08-04 01:54:09] Statistics: disabled
+[INFO ][2010-08-04 01:54:09] Deleted entity synthetic identifier rollback: disabled
+[INFO ][2010-08-04 01:54:09] Default entity-mode: pojo
+[INFO ][2010-08-04 01:54:09] Named query checking : enabled
+[INFO ][2010-08-04 01:54:09] building session factory
+[INFO ][2010-08-04 01:54:09] Not binding factory to JNDI, no JNDI name configured
+[INFO ][2010-08-04 01:55:13] Hibernate 3.3.2.GA
+[INFO ][2010-08-04 01:55:13] hibernate.properties not found
+[INFO ][2010-08-04 01:55:13] Bytecode provider name : javassist
+[INFO ][2010-08-04 01:55:13] using JDK 1.4 java.sql.Timestamp handling
+[INFO ][2010-08-04 01:55:13] configuring from resource: /hibernate.cfg.xml
+[INFO ][2010-08-04 01:55:13] Configuration resource: /hibernate.cfg.xml
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/Assignment.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.Assignment -> task
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/AssignmentParticipant.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.AssignmentParticipant -> task_participant_list
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/Company.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.Company -> company
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/Competitor.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.Competitor -> competitor_info
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/Customer.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.Customer -> customer
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/CustomerCare.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.CustomerCare -> care_activity
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/CustomerFeedback.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.CustomerFeedback -> customer_feedback
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/CustomerSupport.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.CustomerSupport -> customer_connection
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/Employee.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.Employee -> employee
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/EmployeeCustomer.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.EmployeeCustomer -> employee_customer_list
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/House.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.House -> house
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/RepairRecord.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.RepairRecord -> repair_record
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/ResidenceCommunity.hbm.xml
+[INFO ][2010-08-04 01:55:13] Mapping class: com.crm.model.ResidenceCommunity -> residence_community
+[INFO ][2010-08-04 01:55:13] Reading mappings from resource : com/crm/model/Notice.hbm.xml
+[INFO ][2010-08-04 01:55:14] Mapping class: com.crm.model.Notice -> notice
+[INFO ][2010-08-04 01:55:14] Configured SessionFactory: null
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Assignment.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Company.competitorInfos -> competitor_info
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Company.residenceCommunities -> residence_community
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Customer.repairRecords -> repair_record
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Customer.customerSupports -> customer_connection
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Customer.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Customer.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Employee.repairRecords -> repair_record
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Employee.housesForSaleEmployee -> house
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Employee.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Employee.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Employee.housesForASEmployee -> house
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Employee.customerSupports -> customer_connection
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.Employee.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.ResidenceCommunity.competitorInfos -> competitor_info
+[INFO ][2010-08-04 01:55:14] Mapping collection: com.crm.model.ResidenceCommunity.houses -> house
+[INFO ][2010-08-04 01:55:14] Using Hibernate built-in connection pool (not for production use!)
+[INFO ][2010-08-04 01:55:14] Hibernate connection pool size: 20
+[INFO ][2010-08-04 01:55:14] autocommit mode: false
+[INFO ][2010-08-04 01:55:14] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/crm
+[INFO ][2010-08-04 01:55:14] connection properties: {user=root, password=****}
+[INFO ][2010-08-04 01:55:14] RDBMS: MySQL, version: 5.0.67-community-nt
+[INFO ][2010-08-04 01:55:14] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+[INFO ][2010-08-04 01:55:14] Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ][2010-08-04 01:55:14] Using default transaction strategy (direct JDBC transactions)
+[INFO ][2010-08-04 01:55:14] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ][2010-08-04 01:55:14] Automatic flush during beforeCompletion(): disabled
+[INFO ][2010-08-04 01:55:14] Automatic session close at end of transaction: disabled
+[INFO ][2010-08-04 01:55:14] JDBC batch size: 15
+[INFO ][2010-08-04 01:55:14] JDBC batch updates for versioned data: disabled
+[INFO ][2010-08-04 01:55:14] Scrollable result sets: enabled
+[INFO ][2010-08-04 01:55:14] JDBC3 getGeneratedKeys(): enabled
+[INFO ][2010-08-04 01:55:14] Connection release mode: auto
+[INFO ][2010-08-04 01:55:14] Maximum outer join fetch depth: 2
+[INFO ][2010-08-04 01:55:14] Default batch fetch size: 1
+[INFO ][2010-08-04 01:55:14] Generate SQL with comments: disabled
+[INFO ][2010-08-04 01:55:14] Order SQL updates by primary key: disabled
+[INFO ][2010-08-04 01:55:14] Order SQL inserts for batching: disabled
+[INFO ][2010-08-04 01:55:14] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ][2010-08-04 01:55:14] Using ASTQueryTranslatorFactory
+[INFO ][2010-08-04 01:55:14] Query language substitutions: {}
+[INFO ][2010-08-04 01:55:14] JPA-QL strict compliance: disabled
+[INFO ][2010-08-04 01:55:14] Second-level cache: enabled
+[INFO ][2010-08-04 01:55:14] Query cache: disabled
+[INFO ][2010-08-04 01:55:14] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ][2010-08-04 01:55:14] Optimize cache for minimal puts: disabled
+[INFO ][2010-08-04 01:55:14] Structured second-level cache entries: disabled
+[INFO ][2010-08-04 01:55:14] Statistics: disabled
+[INFO ][2010-08-04 01:55:14] Deleted entity synthetic identifier rollback: disabled
+[INFO ][2010-08-04 01:55:14] Default entity-mode: pojo
+[INFO ][2010-08-04 01:55:14] Named query checking : enabled
+[INFO ][2010-08-04 01:55:14] building session factory
+[INFO ][2010-08-04 01:55:14] Not binding factory to JNDI, no JNDI name configured
+[INFO ][2010-08-04 01:56:09] Hibernate 3.3.2.GA
+[INFO ][2010-08-04 01:56:09] hibernate.properties not found
+[INFO ][2010-08-04 01:56:09] Bytecode provider name : javassist
+[INFO ][2010-08-04 01:56:09] using JDK 1.4 java.sql.Timestamp handling
+[INFO ][2010-08-04 01:56:09] configuring from resource: /hibernate.cfg.xml
+[INFO ][2010-08-04 01:56:09] Configuration resource: /hibernate.cfg.xml
+[INFO ][2010-08-04 01:56:09] Reading mappings from resource : com/crm/model/Assignment.hbm.xml
+[INFO ][2010-08-04 01:56:09] Mapping class: com.crm.model.Assignment -> task
+[INFO ][2010-08-04 01:56:09] Reading mappings from resource : com/crm/model/AssignmentParticipant.hbm.xml
+[INFO ][2010-08-04 01:56:09] Mapping class: com.crm.model.AssignmentParticipant -> task_participant_list
+[INFO ][2010-08-04 01:56:09] Reading mappings from resource : com/crm/model/Company.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.Company -> company
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/Competitor.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.Competitor -> competitor_info
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/Customer.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.Customer -> customer
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/CustomerCare.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.CustomerCare -> care_activity
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/CustomerFeedback.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.CustomerFeedback -> customer_feedback
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/CustomerSupport.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.CustomerSupport -> customer_connection
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/Employee.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.Employee -> employee
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/EmployeeCustomer.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.EmployeeCustomer -> employee_customer_list
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/House.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.House -> house
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/RepairRecord.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.RepairRecord -> repair_record
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/ResidenceCommunity.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.ResidenceCommunity -> residence_community
+[INFO ][2010-08-04 01:56:10] Reading mappings from resource : com/crm/model/Notice.hbm.xml
+[INFO ][2010-08-04 01:56:10] Mapping class: com.crm.model.Notice -> notice
+[INFO ][2010-08-04 01:56:10] Configured SessionFactory: null
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Assignment.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Company.competitorInfos -> competitor_info
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Company.residenceCommunities -> residence_community
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Customer.repairRecords -> repair_record
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Customer.customerSupports -> customer_connection
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Customer.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Customer.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Employee.repairRecords -> repair_record
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Employee.housesForSaleEmployee -> house
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Employee.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Employee.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Employee.housesForASEmployee -> house
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Employee.customerSupports -> customer_connection
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.Employee.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.ResidenceCommunity.competitorInfos -> competitor_info
+[INFO ][2010-08-04 01:56:10] Mapping collection: com.crm.model.ResidenceCommunity.houses -> house
+[INFO ][2010-08-04 01:56:10] Using Hibernate built-in connection pool (not for production use!)
+[INFO ][2010-08-04 01:56:10] Hibernate connection pool size: 20
+[INFO ][2010-08-04 01:56:10] autocommit mode: false
+[INFO ][2010-08-04 01:56:10] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/crm
+[INFO ][2010-08-04 01:56:10] connection properties: {user=root, password=****}
+[INFO ][2010-08-04 01:56:10] RDBMS: MySQL, version: 5.0.67-community-nt
+[INFO ][2010-08-04 01:56:10] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+[INFO ][2010-08-04 01:56:10] Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ][2010-08-04 01:56:10] Using default transaction strategy (direct JDBC transactions)
+[INFO ][2010-08-04 01:56:10] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ][2010-08-04 01:56:10] Automatic flush during beforeCompletion(): disabled
+[INFO ][2010-08-04 01:56:10] Automatic session close at end of transaction: disabled
+[INFO ][2010-08-04 01:56:10] JDBC batch size: 15
+[INFO ][2010-08-04 01:56:10] JDBC batch updates for versioned data: disabled
+[INFO ][2010-08-04 01:56:10] Scrollable result sets: enabled
+[INFO ][2010-08-04 01:56:10] JDBC3 getGeneratedKeys(): enabled
+[INFO ][2010-08-04 01:56:10] Connection release mode: auto
+[INFO ][2010-08-04 01:56:10] Maximum outer join fetch depth: 2
+[INFO ][2010-08-04 01:56:10] Default batch fetch size: 1
+[INFO ][2010-08-04 01:56:10] Generate SQL with comments: disabled
+[INFO ][2010-08-04 01:56:10] Order SQL updates by primary key: disabled
+[INFO ][2010-08-04 01:56:10] Order SQL inserts for batching: disabled
+[INFO ][2010-08-04 01:56:10] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ][2010-08-04 01:56:10] Using ASTQueryTranslatorFactory
+[INFO ][2010-08-04 01:56:10] Query language substitutions: {}
+[INFO ][2010-08-04 01:56:10] JPA-QL strict compliance: disabled
+[INFO ][2010-08-04 01:56:10] Second-level cache: enabled
+[INFO ][2010-08-04 01:56:10] Query cache: disabled
+[INFO ][2010-08-04 01:56:10] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ][2010-08-04 01:56:10] Optimize cache for minimal puts: disabled
+[INFO ][2010-08-04 01:56:10] Structured second-level cache entries: disabled
+[INFO ][2010-08-04 01:56:10] Statistics: disabled
+[INFO ][2010-08-04 01:56:10] Deleted entity synthetic identifier rollback: disabled
+[INFO ][2010-08-04 01:56:10] Default entity-mode: pojo
+[INFO ][2010-08-04 01:56:10] Named query checking : enabled
+[INFO ][2010-08-04 01:56:10] building session factory
+[INFO ][2010-08-04 01:56:11] Not binding factory to JNDI, no JNDI name configured
+[INFO ][2010-08-04 10:51:14] Hibernate 3.3.2.GA
+[INFO ][2010-08-04 10:51:14] hibernate.properties not found
+[INFO ][2010-08-04 10:51:14] Bytecode provider name : javassist
+[INFO ][2010-08-04 10:51:14] using JDK 1.4 java.sql.Timestamp handling
+[INFO ][2010-08-04 10:51:14] configuring from resource: /hibernate.cfg.xml
+[INFO ][2010-08-04 10:51:14] Configuration resource: /hibernate.cfg.xml
+[INFO ][2010-08-04 10:51:14] Reading mappings from resource : com/crm/model/Assignment.hbm.xml
+[INFO ][2010-08-04 10:51:14] Mapping class: com.crm.model.Assignment -> task
+[INFO ][2010-08-04 10:51:14] Reading mappings from resource : com/crm/model/AssignmentParticipant.hbm.xml
+[INFO ][2010-08-04 10:51:14] Mapping class: com.crm.model.AssignmentParticipant -> task_participant_list
+[INFO ][2010-08-04 10:51:14] Reading mappings from resource : com/crm/model/Company.hbm.xml
+[INFO ][2010-08-04 10:51:14] Mapping class: com.crm.model.Company -> company
+[INFO ][2010-08-04 10:51:14] Reading mappings from resource : com/crm/model/Competitor.hbm.xml
+[INFO ][2010-08-04 10:51:14] Mapping class: com.crm.model.Competitor -> competitor_info
+[INFO ][2010-08-04 10:51:14] Reading mappings from resource : com/crm/model/Customer.hbm.xml
+[INFO ][2010-08-04 10:51:14] Mapping class: com.crm.model.Customer -> customer
+[INFO ][2010-08-04 10:51:15] Reading mappings from resource : com/crm/model/CustomerCare.hbm.xml
+[INFO ][2010-08-04 10:51:15] Mapping class: com.crm.model.CustomerCare -> care_activity
+[INFO ][2010-08-04 10:51:15] Reading mappings from resource : com/crm/model/CustomerFeedback.hbm.xml
+[INFO ][2010-08-04 10:51:15] Mapping class: com.crm.model.CustomerFeedback -> customer_feedback
+[INFO ][2010-08-04 10:51:15] Reading mappings from resource : com/crm/model/CustomerSupport.hbm.xml
+[INFO ][2010-08-04 10:51:15] Mapping class: com.crm.model.CustomerSupport -> customer_connection
+[INFO ][2010-08-04 10:51:15] Reading mappings from resource : com/crm/model/Employee.hbm.xml
+[INFO ][2010-08-04 10:51:15] Mapping class: com.crm.model.Employee -> employee
+[INFO ][2010-08-04 10:51:15] Reading mappings from resource : com/crm/model/EmployeeCustomer.hbm.xml
+[INFO ][2010-08-04 10:51:15] Mapping class: com.crm.model.EmployeeCustomer -> employee_customer_list
+[INFO ][2010-08-04 10:51:15] Reading mappings from resource : com/crm/model/House.hbm.xml
+[INFO ][2010-08-04 10:51:15] Mapping class: com.crm.model.House -> house
+[INFO ][2010-08-04 10:51:15] Reading mappings from resource : com/crm/model/RepairRecord.hbm.xml
+[INFO ][2010-08-04 10:51:15] Mapping class: com.crm.model.RepairRecord -> repair_record
+[INFO ][2010-08-04 10:51:15] Reading mappings from resource : com/crm/model/ResidenceCommunity.hbm.xml
+[INFO ][2010-08-04 10:51:15] Mapping class: com.crm.model.ResidenceCommunity -> residence_community
+[INFO ][2010-08-04 10:51:15] Reading mappings from resource : com/crm/model/Notice.hbm.xml
+[INFO ][2010-08-04 10:51:15] Mapping class: com.crm.model.Notice -> notice
+[INFO ][2010-08-04 10:51:15] Configured SessionFactory: null
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Assignment.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Company.competitorInfos -> competitor_info
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Company.residenceCommunities -> residence_community
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Customer.repairRecords -> repair_record
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Customer.customerSupports -> customer_connection
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Customer.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Customer.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Employee.repairRecords -> repair_record
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Employee.housesForSaleEmployee -> house
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Employee.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Employee.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Employee.housesForASEmployee -> house
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Employee.customerSupports -> customer_connection
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.Employee.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.ResidenceCommunity.competitorInfos -> competitor_info
+[INFO ][2010-08-04 10:51:15] Mapping collection: com.crm.model.ResidenceCommunity.houses -> house
+[INFO ][2010-08-04 10:51:15] Using Hibernate built-in connection pool (not for production use!)
+[INFO ][2010-08-04 10:51:15] Hibernate connection pool size: 20
+[INFO ][2010-08-04 10:51:15] autocommit mode: false
+[INFO ][2010-08-04 10:51:15] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/crm
+[INFO ][2010-08-04 10:51:15] connection properties: {user=root, password=****}
+[INFO ][2010-08-04 10:51:15] RDBMS: MySQL, version: 5.0.67-community-nt
+[INFO ][2010-08-04 10:51:15] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+[INFO ][2010-08-04 10:51:15] Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ][2010-08-04 10:51:15] Using default transaction strategy (direct JDBC transactions)
+[INFO ][2010-08-04 10:51:15] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ][2010-08-04 10:51:15] Automatic flush during beforeCompletion(): disabled
+[INFO ][2010-08-04 10:51:15] Automatic session close at end of transaction: disabled
+[INFO ][2010-08-04 10:51:15] JDBC batch size: 15
+[INFO ][2010-08-04 10:51:15] JDBC batch updates for versioned data: disabled
+[INFO ][2010-08-04 10:51:15] Scrollable result sets: enabled
+[INFO ][2010-08-04 10:51:15] JDBC3 getGeneratedKeys(): enabled
+[INFO ][2010-08-04 10:51:15] Connection release mode: auto
+[INFO ][2010-08-04 10:51:15] Maximum outer join fetch depth: 2
+[INFO ][2010-08-04 10:51:15] Default batch fetch size: 1
+[INFO ][2010-08-04 10:51:15] Generate SQL with comments: disabled
+[INFO ][2010-08-04 10:51:15] Order SQL updates by primary key: disabled
+[INFO ][2010-08-04 10:51:15] Order SQL inserts for batching: disabled
+[INFO ][2010-08-04 10:51:15] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ][2010-08-04 10:51:15] Using ASTQueryTranslatorFactory
+[INFO ][2010-08-04 10:51:15] Query language substitutions: {}
+[INFO ][2010-08-04 10:51:15] JPA-QL strict compliance: disabled
+[INFO ][2010-08-04 10:51:15] Second-level cache: enabled
+[INFO ][2010-08-04 10:51:15] Query cache: disabled
+[INFO ][2010-08-04 10:51:15] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ][2010-08-04 10:51:15] Optimize cache for minimal puts: disabled
+[INFO ][2010-08-04 10:51:15] Structured second-level cache entries: disabled
+[INFO ][2010-08-04 10:51:15] Statistics: disabled
+[INFO ][2010-08-04 10:51:15] Deleted entity synthetic identifier rollback: disabled
+[INFO ][2010-08-04 10:51:15] Default entity-mode: pojo
+[INFO ][2010-08-04 10:51:15] Named query checking : enabled
+[INFO ][2010-08-04 10:51:15] building session factory
+[INFO ][2010-08-04 10:51:16] Not binding factory to JNDI, no JNDI name configured
+[INFO ][2010-08-04 10:54:53] Hibernate 3.3.2.GA
+[INFO ][2010-08-04 10:54:53] hibernate.properties not found
+[INFO ][2010-08-04 10:54:53] Bytecode provider name : javassist
+[INFO ][2010-08-04 10:54:53] using JDK 1.4 java.sql.Timestamp handling
+[INFO ][2010-08-04 10:54:53] configuring from resource: /hibernate.cfg.xml
+[INFO ][2010-08-04 10:54:53] Configuration resource: /hibernate.cfg.xml
+[INFO ][2010-08-04 10:54:53] Reading mappings from resource : com/crm/model/Assignment.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.Assignment -> task
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/AssignmentParticipant.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.AssignmentParticipant -> task_participant_list
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/Company.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.Company -> company
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/Competitor.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.Competitor -> competitor_info
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/Customer.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.Customer -> customer
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/CustomerCare.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.CustomerCare -> care_activity
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/CustomerFeedback.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.CustomerFeedback -> customer_feedback
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/CustomerSupport.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.CustomerSupport -> customer_connection
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/Employee.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.Employee -> employee
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/EmployeeCustomer.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.EmployeeCustomer -> employee_customer_list
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/House.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.House -> house
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/RepairRecord.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.RepairRecord -> repair_record
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/ResidenceCommunity.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.ResidenceCommunity -> residence_community
+[INFO ][2010-08-04 10:54:54] Reading mappings from resource : com/crm/model/Notice.hbm.xml
+[INFO ][2010-08-04 10:54:54] Mapping class: com.crm.model.Notice -> notice
+[INFO ][2010-08-04 10:54:54] Configured SessionFactory: null
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Assignment.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Company.competitorInfos -> competitor_info
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Company.residenceCommunities -> residence_community
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Customer.repairRecords -> repair_record
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Customer.customerSupports -> customer_connection
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Customer.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Customer.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Employee.repairRecords -> repair_record
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Employee.housesForSaleEmployee -> house
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Employee.customerFeedbacks -> customer_feedback
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Employee.assignmentParticipants -> task_participant_list
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Employee.housesForASEmployee -> house
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Employee.customerSupports -> customer_connection
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.Employee.employeeCustomers -> employee_customer_list
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.ResidenceCommunity.competitorInfos -> competitor_info
+[INFO ][2010-08-04 10:54:54] Mapping collection: com.crm.model.ResidenceCommunity.houses -> house
+[INFO ][2010-08-04 10:54:54] Using Hibernate built-in connection pool (not for production use!)
+[INFO ][2010-08-04 10:54:54] Hibernate connection pool size: 20
+[INFO ][2010-08-04 10:54:54] autocommit mode: false
+[INFO ][2010-08-04 10:54:54] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/crm
+[INFO ][2010-08-04 10:54:54] connection properties: {user=root, password=****}
+[INFO ][2010-08-04 10:54:54] RDBMS: MySQL, version: 5.0.67-community-nt
+[INFO ][2010-08-04 10:54:54] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+[INFO ][2010-08-04 10:54:54] Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ][2010-08-04 10:54:54] Using default transaction strategy (direct JDBC transactions)
+[INFO ][2010-08-04 10:54:54] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ][2010-08-04 10:54:54] Automatic flush during beforeCompletion(): disabled
+[INFO ][2010-08-04 10:54:54] Automatic session close at end of transaction: disabled
+[INFO ][2010-08-04 10:54:54] JDBC batch size: 15
+[INFO ][2010-08-04 10:54:54] JDBC batch updates for versioned data: disabled
+[INFO ][2010-08-04 10:54:54] Scrollable result sets: enabled
+[INFO ][2010-08-04 10:54:54] JDBC3 getGeneratedKeys(): enabled
+[INFO ][2010-08-04 10:54:54] Connection release mode: auto
+[INFO ][2010-08-04 10:54:54] Maximum outer join fetch depth: 2
+[INFO ][2010-08-04 10:54:54] Default batch fetch size: 1
+[INFO ][2010-08-04 10:54:54] Generate SQL with comments: disabled
+[INFO ][2010-08-04 10:54:54] Order SQL updates by primary key: disabled
+[INFO ][2010-08-04 10:54:54] Order SQL inserts for batching: disabled
+[INFO ][2010-08-04 10:54:54] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ][2010-08-04 10:54:54] Using ASTQueryTranslatorFactory
+[INFO ][2010-08-04 10:54:54] Query language substitutions: {}
+[INFO ][2010-08-04 10:54:54] JPA-QL strict compliance: disabled
+[INFO ][2010-08-04 10:54:54] Second-level cache: enabled
+[INFO ][2010-08-04 10:54:54] Query cache: disabled
+[INFO ][2010-08-04 10:54:54] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ][2010-08-04 10:54:54] Optimize cache for minimal puts: disabled
+[INFO ][2010-08-04 10:54:54] Structured second-level cache entries: disabled
+[INFO ][2010-08-04 10:54:54] Statistics: disabled
+[INFO ][2010-08-04 10:54:54] Deleted entity synthetic identifier rollback: disabled
+[INFO ][2010-08-04 10:54:54] Default entity-mode: pojo
+[INFO ][2010-08-04 10:54:54] Named query checking : enabled
+[INFO ][2010-08-04 10:54:54] building session factory
+[INFO ][2010-08-04 10:54:55] Not binding factory to JNDI, no JNDI name configured

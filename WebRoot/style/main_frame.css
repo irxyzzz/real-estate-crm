@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body { min-width: 640px; height: 100%; width: 100%; margin:0px; padding:0px; text-align:center; font-family: 微软雅黑, 幼圆; font-size: 14px; margin:0px; padding:0px; background: #EEE; background-image:url(image/bg_spa.jpg); background-attachment:fixed; background-position: center; line-height: 1.6; }
+
+#accordion { -webkit-transition-property: opacity, -webkit-box-shadow; -webkit-transition: 0.3s ease-out; -moz-transition-property: opacity, -moz-box-shadow; -moz-transition: 0.3s ease-out; opacity: 0.8; position:absolute; top: 0px; left: 0px; z-index: 89; margin: 0px; background: none; background-image:url(image/bg_accordion.png); height: 584px; max-width: 192px; min-width: 192px; text-align: left; border-right: solid 1px #333; }
+#accordion:hover { opacity: 1; -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.4); -moz-box-shadow:0 0px 10px rgba(0, 0, 0, 0.4); }
+#accordion:active { opacity: 1; -webkit-box-shadow:0 0 0 rgba(0, 0, 0, 0.4); -moz-box-shadow:0 0 0px rgba(0, 0, 0, 0.4); }
+#accordion .content { padding-top: 0px; border-top-style: none; border-top-width: initial; border-top-color: initial; padding-bottom: 0px; border-bottom-style: none; border-bottom-width: initial; border-bottom-color: initial; overflow-x: hidden; overflow-y: hidden; visibility: visible; zoom: 1; height: 0px; }
+#accordion a { -webkit-transition-property: padding, background-color; -webkit-transition: 0.3s ease; -moz-transition-property: padding, background-color; -moz-transition: 0.3s ease; color: #232323; background-color:#cbcbcb; padding:3px 13px 3px 13px; margin:3px 0 3px 13px; display: block; border-top-left-radius: 1em; }
+#accordion a:hover { text-decoration: none; background-color:#ebebeb; padding:3px 13px 3px 23px; }
+#accordion div.title { -webkit-transition: padding 0.3s ease; -moz-transition: padding 0.3s ease; cursor: pointer; font-size: 1.3em; font-weight:700; background-image:url(image/bg_label.png); color: #777; padding: 3px 13px; margin: 1px 0px 1px 0px; border-bottom-right-radius: 1em;}
+#accordion div.title:hover {padding: 3px 23px;}
+#accordion h4 { margin: 0px 0px 0px 0px; color: #EEE; padding: 0px 0px 0px 23px; }
+#accordion p { margin: 0px; }
+
+#accordion { position:absolute; top:49px; left:0px; margin:0px; padding:0px; }
+
+.top_block { height:49px; position:absolute; top:0px; }
+.bottom_block { height:49px; position:absolute; bottom:0px; }
+
+#func_content { background: none; border:none; position:absolute; top:49px; right:0px; width:1088px; height:583px; }

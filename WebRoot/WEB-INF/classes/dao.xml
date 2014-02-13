@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Database Access Object Comfigure</comment>
+	<entry key="assignmentDao">com.crm.dao.impl.AssignmentDAO</entry>
+	<entry key="assignmentParticipantDao">com.crm.dao.impl.AssignmentParticipantDAO</entry>
+	<entry key="companyDao">com.crm.dao.impl.CompanyDAO</entry>
+	<entry key="competitorDao">com.crm.dao.impl.CompetitorDAO</entry>
+	<entry key="customerCareDao">com.crm.dao.impl.CustomerCareDAO</entry>
+	<entry key="customerDao">com.crm.dao.impl.CustomerDAO</entry>
+	<entry key="customerFeedbackDao">com.crm.dao.impl.CustomerFeedbackDAO</entry>
+	<entry key="customerSupportDao">com.crm.dao.impl.CustomerSupportDAO</entry>
+	<entry key="employeeDao">com.crm.dao.impl.EmployeeDAO</entry>
+	<entry key="employeeCustomerDao">com.crm.dao.impl.EmployeeCustomerDAO</entry>
+	<entry key="houseDao">com.crm.dao.impl.HouseDAO</entry>
+	<entry key="repairRecordDao">com.crm.dao.impl.RepairRecordDAO</entry>
+	<entry key="residenceCommunityDao">com.crm.dao.impl.ResidenceCommunityDAO</entry>
+	<entry key="noticeDao">com.crm.dao.impl.NoticeDAO</entry>
+</properties>

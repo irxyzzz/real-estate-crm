@@ -1,0 +1,11 @@
+@charset "UTF-8";
+#info_table { list-style: none; border-style: none; width: 512px; position:relative; margin: 30px auto; padding: 30px 20px 20px 20px; }
+#info_table { -webkit-transition: -webkit-box-shadow 0.3s ease-out; -moz-transition: -moz-box-shadow 0.3s ease-out; font-family: 微软雅黑, 幼圆; display:block; -webkit-border-radius:5px; -moz-border-radius:5px; border: solid #D1D4DA 1px; overflow:auto; background: rgba(255,255,255,0.3); }
+#info_table:hover { -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.4); -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.4); }
+#info_table:active { -webkit-box-shadow:0 0 0 rgba(0, 0, 0, 0.4); -moz-box-shadow:0 0 0px rgba(0, 0, 0, 0.4); }
+#info_table th { text-align: left; padding-right: 30px; }
+#info_table h3 { margin: 0px; padding: 0px; }
+#info_table hr { margin: 20px auto; }
+a.btn_submit { cursor: pointer; font-family: 微软雅黑, 幼圆; font-size: 14px; -webkit-transition: all 0.3s ease-out; -moz-transition: all 1s linear; color: #FFF; padding: 3px 13px; background: none; border: none; background-image:url(image/snook-animation-ud.png); background-position: -0px -66px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
+a.btn_submit:hover { color: #000; background-position: -0px -10px; }
+a.btn_submit:active { color: #fff; }
